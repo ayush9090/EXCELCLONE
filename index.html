@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu_container">
+        <div class="menu">
+            <div class="effects">
+                <div class="font-style">
+                    <select name="arial" id="arial">
+                        <option value="arial">font-1</option>
+                        <option value="cambria">font-2</option>
+                        <option value="georgia">font-3</option>
+                        <option value="sans-serif">font-4</option>
+
+                    </select>
+            
+                </div>
+                <div class="font-size">
+                    
+                        <select name="size" class="size">
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="32">32</option>
+    
+                        </select>
+                </div>
+                <div class="font-text">
+                <div class="textSt">
+                    <input type="button" class="box" id="bolt" value="B" >
+                    <input type="button" class="box" id="uti" value="U" >
+                    <input type="button" class="box" id="italic" value="I" >
+                </div>
+                </div>
+                <div class="font-color">
+                    <div class="colors">
+                        <input type="color" class="color txt1">
+                        <input type="color" class="color txt2">
+                    </div>
+                </div>
+            </div>
+            <div class="lcr">
+                <input type="button" class="btn left" value="L" >
+               <input type="button" class="btn centre" value="C" >
+                    <input type="button" class="btn right" value="R" >
+            </div>
+        </div>
+        
+    </div>
+    <div class="formula">
+        <input type="text" class="adress-box"  readonly>
+        <div class="space">:</div>
+        <input type="text" class="formula-box" >
+    </div>
+    <div class="grid_container">
+        <div class="top-left-block">
+        </div>
+        <div class="top-row">
+        </div>
+        <div class="left-col">
+        </div>
+        <div class="grid"></div>
+    </div>
+    <div class="sheets">
+        <div class="plus">
+            <i class="fas fa-plus"></i>
+        </div>
+        <div class="sheet-list">
+            <div class="sheet active-state" sheetIdx="0">sheet 1</div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
