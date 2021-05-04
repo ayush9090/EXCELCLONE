@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    
+}
+
+.formula{
+    height: 30px;
+    background-color: aqua;
+}
+
+.sheets{
+    height: 40px;
+    display: flex;
+    background-color:burlywood;
+}
+.plus{
+    min-width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active-state{
+    background-color: white;
+}
+.sheet-list{
+    display: flex;
+    overflow: auto;
+}
+.sheet{
+    display: flex;
+    min-width: 60px;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.top-left-block {
+    height: 30px;
+    width: 25px;
+    background-color: gray;
+}
+
+.top-row {
+    height: 30px;
+    background-color: lightgreen;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 25px
+}
+.menu>*{
+height: 80%;
+width: 20%;
+border-right: 2px solid;
+}
+/*menu containercss*/
+.menu_container{
+    height: 80px;
+    background-color: aliceblue;
+    overflow: auto;
+}
+.menu{
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.effects{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    
+}
+.font-style{
+height: 50%;
+width: 50%;
+position: absolute;
+display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#arial{
+    height: 55%;
+    width: 75%;
+    
+   
+}
+.font-size{
+left: 50%;
+height: 50%;
+width: 50%;
+display: flex;
+    align-items: center;
+    justify-content: center;
+position: absolute;
+
+}
+.size{
+    height: 55%;
+    width: 75%;
+    
+    
+}
+.font-text{
+    top: 50%;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+.textSt{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.box{
+     
+     height: 100%;
+     width: 28%;
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+}
+.font-color{
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    position: absolute;
+  
+}
+.colors{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.color{
+    height: 90%;
+    width: 38%;
+
+    border:  0.1px solid wheat;
+}
+
+.lcr{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.btn{
+    height: 30px;
+    width: 50px;
+}
+/*gridcontainer css*/
+
+.grid_container {
+    height: calc(100vh - ( 80px + 30px + 40px ) );
+    position: relative;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.row {
+    display: flex;
+}
+.col {
+    min-width: 80px;
+    border: 1px solid;
+    min-height:30px;
+    
+    
+}
+
+.left-col {
+    width: 25px;
+    border: 1px solid red;
+   
+}
+
+.grid {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.left-col_box {
+    height: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid;
+}
+.menu_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .menu_container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .sheet-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sheet-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  /*formul*/
+  .formula{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .formula-box{
+      width: 70%;
+      height: 85%;
+  }
+  .adress-box{
+       width: 10%;
+      height: 85%;
+  }
